@@ -6,11 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Raleigh-xc/vue-element-cron.git"
+  },
   "keywords": [
     "vue",
     "cron",
-    "element-ui"
+    "element-ui",
+    "component"
   ],
   "author": "Dorange",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies":{
+    "element-ui": "^2.15.1",
+    "vue": "^2.6.11"
+  }
 }
